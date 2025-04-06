@@ -1,0 +1,138 @@
+body{
+    background-color: powderblue;
+    display: flex;
+    justify-content: center; /* Yatayda ortalama */
+}
+.myApp{
+    width: 100%;
+    height: 2000px;
+    border-radius: 10px;
+}
+
+.blog-list{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    caret-color: transparent;
+}
+
+hr {
+    width: 650px;
+    margin-bottom: 15px;
+    border: none;
+    height: 0.5px;
+    background-color: midnightblue;
+}
+
+
+.blog-list h2{
+    font-family: "Calibri";
+    color: midnightblue;
+    font-size: 30px;
+}
+.blog-list-box{
+    box-shadow: 1px 1px 7px midnightblue;
+    padding: 10px;
+    border-radius: 30px;
+    width: 550px;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+    transition: 0.2s ease-in-out;
+    font-family: "Calibri";
+}
+
+.blog-list-box h3{
+    color: midnightblue;
+    font-size: 22px;
+}
+
+.blog-list-box:hover{
+    box-shadow: 1px 1px 20px steelblue;
+    background-color: lightskyblue;
+}
+
+.blog-list-box p{
+    opacity: 50%;
+}
+
+.blog-detail {
+    background-color: cornflowerblue;
+    border-radius: 40px;
+    box-shadow: 1px 1px 7px midnightblue;
+    font-family: "Calibri";
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    caret-color: transparent;
+    color: midnightblue;
+}
+
+.blog-detail p{
+
+    width: 90%;
+    font-size: clamp(17px, 2vw, 19px);
+}
+
+.blog-detail button{
+    font-family: "Calibri Light";
+    border: none;
+    width: 120px;
+    height: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: 0.15s ease-in-out;
+    box-shadow: 1px 1px 10px steelblue;
+}
+.blog-detail button:hover{
+    background-color: powderblue;
+}
+.blog-detail h2{
+    margin-top: 75px;
+}
+
+.Header{
+    margin-top: -25px;
+    background-color: powderblue;
+    border-bottom: transparent 1px;
+    box-shadow: 1px 1px 40px skyblue;
+    width: 1520px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    caret-color: transparent;
+}
+.Header span{
+    color: royalblue;
+}
+.Header h2{
+    font-family: "Centaur";
+    font-size: 50px;
+    color: midnightblue;
+    padding: 8px;
+}
+
+.Header button{
+    font-family: "Calibri Light";
+    font-weight: bolder;
+    color: mediumblue;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    width: 100px;
+    margin-left: 50px;
+    transition: 0.15s ease-in-out;
+}
+
+.Header button:hover{
+    text-shadow: 0px 2px 10px darkblue;
+}
